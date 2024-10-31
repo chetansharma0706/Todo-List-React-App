@@ -21,7 +21,7 @@ A task management application to create, edit, delete, and filter tasks efficien
 
 ## Demo
 
-You can view the live version of the app [here](https://link-to-your-live-app).
+You can view the live version of the app [here](https://easydone.netlify.app/).
 
 ## ScreenShots
 
