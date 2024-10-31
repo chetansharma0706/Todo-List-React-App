@@ -1,0 +1,26 @@
+.filters span {
+  cursor: pointer;
+  margin: 0 7px 0 0;
+  padding: 2px 6px;
+  transition: color 0.01s ease-in-out, background-color 0.3s ease; /* Adds smooth transition */
+}
+
+.filters span.active {
+  color: #4158d0;
+  background-color: #4159d01a;
+  padding: 2px 6px;
+  border-radius: 6px;
+}
+
+.filters {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Remove focus outline or background on click */
+.filters span:focus,
+.filters span:active {
+  outline: none;
+  background: none;
+}

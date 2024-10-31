@@ -1,0 +1,64 @@
+.task-date {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 6px;
+  padding: 5px 0;
+  margin: 18px 0;
+}
+
+.task-input {
+  outline: none;
+  border: 1px solid #ddd;
+  padding: 8px 12px;
+}
+
+.task-date label {
+  font-size: 0.92rem;
+  font-weight: 400;
+}
+
+.task-date-text {
+  cursor: pointer;
+  color: var(--primary-color);
+  font-weight: 500;
+}
+
+.modal {
+  display: flex;
+  position: fixed;
+  z-index: 1;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.97);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-content {
+  background-color: #fff;
+  padding: 20px;
+  border-radius: 10px;
+  width: 400px;
+  position: relative;
+}
+
+.modal-content textarea {
+  width: 100%;
+  height: 100px;
+  resize: none;
+  overflow-y: auto;
+  padding: 10px;
+  margin-top: 20px;
+}
+
+/* Close button */
+.close {
+  position: absolute;
+  top: 10px;
+  right: 20px;
+  font-size: 20px;
+  cursor: pointer;
+}

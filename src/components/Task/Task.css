@@ -1,0 +1,49 @@
+.task {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 12px 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.task label {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+}
+
+.settings {
+  cursor: pointer;
+  position: relative;
+}
+
+.settings .task-menu {
+  position: absolute;
+  top: 0px;
+  left: -76px;
+  list-style: none;
+  z-index: 2;
+  transform: scale(1);
+  transform-origin: top right;
+  transition: transform 0.2s ease-in-out;
+  font-size: 15px;
+  background-color: #f3f3f3;
+  border-radius: 5px;
+  box-shadow: 0 0 6px rgba(0, 0, 0, 0.19);
+}
+
+.settings .task-menu.show {
+  transform: scale(1);
+}
+
+.task-menu li {
+  height: 100%;
+  padding: 5px 8px;
+  border-radius: 5px;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 5px;
+}
+.task-menu li:hover {
+  background-color: #d4dbff;
+}
